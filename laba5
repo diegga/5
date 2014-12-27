@@ -1,0 +1,62 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+</head>
+ <body>
+
+
+</body>
+</html>
+
+
+
+
+
+<SCRIPT SRC="jsMath/plugins/noImageFonts.js"> </SCRIPT>
+
+<SCRIPT SRC="jsMath/jsMath.js"> </SCRIPT>
+
+
+
+
+<DIV CLASS="math">
+\displaystyle u(t,x)=\sum_{k=1}^{\infty}(A_k\cos\frac{kГЇat}{1}+B_k\sin\frac{kГЇat}{1})\sin\frac{kГЇx}{1}.
+</DIV>
+
+<DIV CLASS="math">
+\displaystyle \phi(x)=\sum_{k=1}^{\infty}A_k\sin\frac{kГЇx}{1},x\in[0,1]
+</DIV>
+
+
+<script type="text/javascript"> 
+   jsMath.Process(document); 
+</script>
+
+
+
+<DIV id = "formula">
+   формула
+</DIV>
+
+<input type="button" onClick="mathem()" value="В формулу">
+
+
+ <script type="text/javascript"> 
+
+   
+   function mathem()
+{
+   var sssr = '<span CLASS="math"> \\displaystyle u(t,x)=\\sum_{k=1}^{\\infty}(A_k\\cos\\frac{kГЇat}{1}+B_k\\sin\\frac{kГЇat}{1})\\sin\\frac{kГЇx}{1}.   \\displaystyle \\phi(x)=\\sum_{k=1}^{\\infty}A_k\\sin\\frac{kГЇx}{1},x\\in[0,1]</span>';
+   document.getElementById("formula").innerHTML = sssr;
+    jsMath.Process(document);
+}
+
+ 
+</script>
+
+
+
+
+	
